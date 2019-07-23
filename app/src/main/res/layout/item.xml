@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:layout_width="273dp"
+            android:layout_height="83dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ubicacion"
+                android:layout_width="88dp"
+                android:layout_height="62dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapa" />
+
+            <Button
+                android:id="@+id/gmail"
+                android:layout_width="92dp"
+                android:layout_height="62dp"
+                android:layout_weight="1"
+                android:background="@drawable/email" />
+
+            <Button
+                android:id="@+id/llamada"
+                android:layout_width="88dp"
+                android:layout_height="62dp"
+                android:layout_weight="1"
+                android:background="@drawable/tel" />
+
+            <Button
+                android:id="@+id/vista"
+                android:layout_width="72dp"
+                android:layout_height="59dp"
+                android:layout_weight="1"
+                android:background="@drawable/ojo" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
